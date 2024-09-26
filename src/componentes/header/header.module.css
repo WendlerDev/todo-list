@@ -1,0 +1,37 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    max-width: var(--maxWidthApp);
+    padding-top: 22px;
+    padding-right: 0px;
+}
+
+.brandContainer {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.newTaskContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.newTaskInput {
+    flex: 1;
+}
+
+img {
+    padding-bottom: 10px;
+}
+
+@media (max-width: 840px) {
+    .container {
+        padding: 20px;
+    }
+}

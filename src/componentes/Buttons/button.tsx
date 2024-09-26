@@ -1,4 +1,4 @@
-import styles from './ButtonModule.css'
+import styles from './button.module.css'
 import AddIcon from '../../assets/add.svg?react'
 
 type Props = {
@@ -9,7 +9,8 @@ export const Button = ({ onClick }: Props) => {
 
     return (
         <div className={styles.container}>
-            <button>
+            <button
+            onClick={onClick}>
                 Create Task <AddIcon />
             </button>
         </div>
